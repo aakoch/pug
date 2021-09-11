@@ -2,8 +2,8 @@
 
 Standard error objects for pug.  This module is intended for use by the lexer, parser, loader, linker, code-generator and any plugins.
 
-[![Build Status](https://img.shields.io/travis/pugjs/pug-error/master.svg)](https://travis-ci.org/pugjs/pug-error)
-[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-error)](https://david-dm.org/pugjs/pug?path=packages/pug-error)
+[![Build Status](https://img.shields.io/travis/aakoch/pug-error/master.svg)](https://travis-ci.org/pugjs/pug-error)
+[![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-error)](https://david-dm.org/aakoch/pug?path=packages/pug-error)
 [![NPM version](https://img.shields.io/npm/v/pug-error.svg)](https://www.npmjs.org/package/pug-error)
 
 ## Installation

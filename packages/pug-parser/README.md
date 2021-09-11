@@ -2,9 +2,9 @@
 
 The pug parser (takes an array of tokens and converts it to an abstract syntax tree)
 
-[![Build Status](https://img.shields.io/travis/pugjs/pug-parser/master.svg)](https://travis-ci.org/pugjs/pug-parser)
-[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-parser)](https://david-dm.org/pugjs/pug?path=packages/pug-parser)
-[![DevDependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-parser)](https://david-dm.org/pugjs/pug?path=packages/pug-parser&type=dev)
+[![Build Status](https://img.shields.io/travis/aakoch/pug-parser/master.svg)](https://travis-ci.org/pugjs/pug-parser)
+[![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-parser)](https://david-dm.org/aakoch/pug?path=packages/pug-parser)
+[![DevDependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-parser)](https://david-dm.org/aakoch/pug?path=packages/pug-parser&type=dev)
 [![NPM version](https://img.shields.io/npm/v/pug-parser.svg)](https://www.npmjs.org/package/pug-parser)
 
 ## Installation

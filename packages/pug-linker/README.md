@@ -2,9 +2,9 @@
 
 Link multiple pug ASTs together using include/extends
 
-[![Build Status](https://img.shields.io/travis/pugjs/pug-linker/master.svg)](https://travis-ci.org/pugjs/pug-linker)
-[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-linker)](https://david-dm.org/pugjs/pug?path=packages/pug-linker)
-[![DevDependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-linker)](https://david-dm.org/pugjs/pug?path=packages/pug-linker&type=dev)
+[![Build Status](https://img.shields.io/travis/aakoch/pug-linker/master.svg)](https://travis-ci.org/pugjs/pug-linker)
+[![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-linker)](https://david-dm.org/aakoch/pug?path=packages/pug-linker)
+[![DevDependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-linker)](https://david-dm.org/aakoch/pug?path=packages/pug-linker&type=dev)
 [![NPM version](https://img.shields.io/npm/v/pug-linker.svg)](https://www.npmjs.org/package/pug-linker)
 
 ## Installation

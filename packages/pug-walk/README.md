@@ -2,9 +2,9 @@
 
 Walk and transform a Pug AST
 
-[![Build Status](https://img.shields.io/travis/pugjs/pug-walk/master.svg)](https://travis-ci.org/pugjs/pug-walk)
-[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-walk)](https://david-dm.org/pugjs/pug?path=packages/pug-walk)
-[![DevDependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-walk)](https://david-dm.org/pugjs/pug?path=packages/pug-walk&type=dev)
+[![Build Status](https://img.shields.io/travis/aakoch/pug-walk/master.svg)](https://travis-ci.org/pugjs/pug-walk)
+[![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-walk)](https://david-dm.org/aakoch/pug?path=packages/pug-walk)
+[![DevDependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-walk)](https://david-dm.org/aakoch/pug?path=packages/pug-walk&type=dev)
 [![npm version](https://img.shields.io/npm/v/pug-walk.svg)](https://www.npmjs.org/package/pug-walk)
 [![Coverage Status](https://img.shields.io/codecov/c/github/pugjs/pug-walk/master.svg)](https://codecov.io/gh/pugjs/pug-walk/branch/master)
 

@@ -10,8 +10,8 @@
     "pug-walk": "^1.1.8"
   },
   "devDependencies": {
-    "pug-lexer": "^4.1.0",
-    "pug-load": "^2.0.12",
+    "pug-lexer": "5.0.1",
+    "pug-load": "3.0.0",
     "pug-parser": "6.0.0"
   },
   "files": [
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pugjs/pug/tree/master/packages/pug-linker"
+    "url": "https://github.com/aakoch/pug/tree/master/packages/pug-linker"
   },
   "author": "Forbes Lindesay",
   "license": "MIT"

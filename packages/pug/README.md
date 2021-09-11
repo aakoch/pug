@@ -7,15 +7,15 @@ Full documentation is at [pugjs.org](https://pugjs.org/)
 
  Pug is a high performance template engine heavily influenced by [Haml](http://haml.info/)
  and implemented with JavaScript for [Node.js](http://nodejs.org) and browsers. For bug reports,
- feature requests and questions, [open an issue](https://github.com/pugjs/pug/issues/new).
+ feature requests and questions, [open an issue](https://github.com/aakoch/pug/issues/new).
  For discussion join the [chat room](https://gitter.im/pugjs/pug).
 
  You can test drive Pug online [here](https://pugjs.org/).
 
- [![Build Status](https://img.shields.io/travis/pugjs/pug/master.svg?style=flat)](https://travis-ci.org/pugjs/pug)
+ [![Build Status](https://img.shields.io/travis/aakoch/pug/master.svg?style=flat)](https://travis-ci.org/pugjs/pug)
  [![Coverage Status](https://img.shields.io/coveralls/pugjs/pug/master.svg?style=flat)](https://coveralls.io/r/pugjs/pug?branch=master)
- [![Dependency Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug)](https://david-dm.org/pugjs/pug?path=packages/pug)
- [![DevDependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug)](https://david-dm.org/pugjs/pug?path=packages/pug&type=dev)
+ [![Dependency Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug)](https://david-dm.org/aakoch/pug?path=packages/pug)
+ [![DevDependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug)](https://david-dm.org/aakoch/pug?path=packages/pug&type=dev)
  [![NPM version](https://img.shields.io/npm/v/pug.svg?style=flat)](https://www.npmjs.com/package/pug)
  [![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/pugjs/pug?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -25,7 +25,7 @@ This project was formerly known as "Jade." However, it has been revealed to us t
 
 If your package or app currently uses `jade`, don't worry: we have secured permissions to continue to occupy that package name, although all new versions will be released under `pug`.
 
-Before the renaming, we had already begun working on an incompatible Jade 2.0.0. We have then made it so that this new major version bump will coincide with the rename to Pug. Therefore, upgrading from Jade to Pug will be the same process as upgrading any other package with a major version bump. Currently, Pug 2.0.0 is still under beta stage, and there are several syntactic differences we have deprecated and removed. Such differences are documented at [#2305](https://github.com/pugjs/pug/issues/2305).
+Before the renaming, we had already begun working on an incompatible Jade 2.0.0. We have then made it so that this new major version bump will coincide with the rename to Pug. Therefore, upgrading from Jade to Pug will be the same process as upgrading any other package with a major version bump. Currently, Pug 2.0.0 is still under beta stage, and there are several syntactic differences we have deprecated and removed. Such differences are documented at [#2305](https://github.com/aakoch/pug/issues/2305).
 
 The website and documentation for Pug are still being updated, but if you are new to Pug, you should get started with the new syntax and install the Pug package on npm.
 

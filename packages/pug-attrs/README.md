@@ -2,8 +2,8 @@
 
 Generate code for Pug attributes
 
-[![Build Status](https://img.shields.io/travis/pugjs/pug-attrs/master.svg)](https://travis-ci.org/pugjs/pug-attrs)
-[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-attrs)](https://david-dm.org/pugjs/pug?path=packages/pug-attrs)
+[![Build Status](https://img.shields.io/travis/aakoch/pug-attrs/master.svg)](https://travis-ci.org/pugjs/pug-attrs)
+[![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-attrs)](https://david-dm.org/aakoch/pug?path=packages/pug-attrs)
 [![NPM version](https://img.shields.io/npm/v/pug-attrs.svg)](https://www.npmjs.org/package/pug-attrs)
 
 ## Installation

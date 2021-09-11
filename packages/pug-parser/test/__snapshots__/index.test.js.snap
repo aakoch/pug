@@ -2501,7 +2501,7 @@ Object {
       "filename": "blocks-in-if.tokens.json",
       "line": 1,
       "type": "Comment",
-      "val": " see https://github.com/pugjs/pug/issues/1589",
+      "val": " see https://github.com/aakoch/pug/issues/1589",
     },
     Object {
       "buffer": false,
@@ -14698,7 +14698,7 @@ Object {
       "filename": "mixin-via-include.tokens.json",
       "line": 1,
       "type": "Comment",
-      "val": " regression test for https://github.com/pugjs/pug/issues/1435",
+      "val": " regression test for https://github.com/aakoch/pug/issues/1435",
     },
     Object {
       "block": Object {

@@ -2,9 +2,9 @@
 
 Strips comments from Pug token stream
 
-[![Build Status](https://img.shields.io/travis/pugjs/pug-strip-comments/master.svg)](https://travis-ci.org/pugjs/pug-strip-comments)
-[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-strip-comments)](https://david-dm.org/pugjs/pug?path=packages/pug-strip-comments)
-[![DevDependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-strip-comments)](https://david-dm.org/pugjs/pug?path=packages/pug-strip-comments&type=dev)
+[![Build Status](https://img.shields.io/travis/aakoch/pug-strip-comments/master.svg)](https://travis-ci.org/pugjs/pug-strip-comments)
+[![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-strip-comments)](https://david-dm.org/aakoch/pug?path=packages/pug-strip-comments)
+[![DevDependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-strip-comments)](https://david-dm.org/aakoch/pug?path=packages/pug-strip-comments&type=dev)
 [![NPM version](https://img.shields.io/npm/v/pug-strip-comments.svg)](https://www.npmjs.org/package/pug-strip-comments)
 
 ## Installation
