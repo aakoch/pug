@@ -1,39 +1,39 @@
-<a href="https://pugjs.org"><img src="https://cdn.rawgit.com/pugjs/pug-logo/eec436cee8fd9d1726d7839cbe99d1f694692c0c/SVG/pug-final-logo-_-colour-128.svg" height="200" align="right"></a>
+<a href="https://pugjs.org"><img src="https://cdn.rawgit.com/aakoch/pug-logo/eec436cee8fd9d1726d7839cbe99d1f694692c0c/SVG/pug-final-logo-_-colour-128.svg" height="200" align="right"></a>
 # Pug
 
 Full documentation is at [pugjs.org](https://pugjs.org/)
 
 Pug is a high-performance template engine heavily influenced by [Haml](http://haml.info/)
 and implemented with JavaScript for [Node.js](http://nodejs.org) and browsers. For bug reports,
-feature requests and questions, [open an issue](https://github.com/pugjs/pug/issues/new).
-For discussion join the [chat room](https://gitter.im/pugjs/pug).
+feature requests and questions, [open an issue](https://github.com/aakoch/pug/issues/new).
+For discussion join the [chat room](https://gitter.im/aakoch/pug).
 
 You can test drive Pug online [here](https://pugjs.org/).
  
 [Professionally supported pug is now available](https://tidelift.com/subscription/pkg/npm-pug?utm_source=npm-pug&utm_medium=referral&utm_campaign=readme)
 
-[![Build Status](https://img.shields.io/github/workflow/status/pugjs/pug/Test/master?style=for-the-badge)](https://github.com/pugjs/pug/actions?query=workflow%3ATest+branch%3Amaster)
-[![Rolling Versions](https://img.shields.io/badge/Rolling%20Versions-Enabled-brightgreen?style=for-the-badge)](https://rollingversions.com/pugjs/pug)
+[![Build Status](https://img.shields.io/github/workflow/status/aakoch/pug/Test/master?style=for-the-badge)](https://github.com/aakoch/pug/actions?query=workflow%3ATest+branch%3Amaster)
+[![Rolling Versions](https://img.shields.io/badge/Rolling%20Versions-Enabled-brightgreen?style=for-the-badge)](https://rollingversions.com/aakoch/pug)
 [![NPM version](https://img.shields.io/npm/v/pug?style=for-the-badge)](https://www.npmjs.com/package/pug)
-[![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=for-the-badge)](https://gitter.im/pugjs/pug?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=for-the-badge)](https://gitter.im/aakoch/pug?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Dependency Status
 
 | Package        | Dependencies           | Dev Dependencies  |
 | ------------- |:-------------| :-----|
-| mono-repo top      |  [![Dependency Status](https://img.shields.io/david/pugjs/pug.svg?style=flat)](https://david-dm.org/pugjs/pug) |  [![devDependencies Status](https://img.shields.io/david/dev/pugjs/pug.svg?style=flat)](https://david-dm.org/pugjs/pug?type=dev) |
-| pug | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug)](https://david-dm.org/pugjs/pug?path=packages/pug)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug)](https://david-dm.org/pugjs/pug?path=packages/pug&type=dev) |
-| pug-attrs      | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-attrs)](https://david-dm.org/pugjs/pug?path=packages/pug-attrs)      |   [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-attrs)](https://david-dm.org/pugjs/pug?path=packages/pug-attrs&type=dev) |
-| pug-code-gen | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-code-gen)](https://david-dm.org/pugjs/pug?path=packages/pug-code-gen)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-code-gen)](https://david-dm.org/pugjs/pug?path=packages/pug-code-gen&type=dev) |
-| pug-error | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-error)](https://david-dm.org/pugjs/pug?path=packages/pug-error)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-error)](https://david-dm.org/pugjs/pug?path=packages/pug-error&type=dev) |
-| pug-filters | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-filters)](https://david-dm.org/pugjs/pug?path=packages/pug-filters)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-filters)](https://david-dm.org/pugjs/pug?path=packages/pug-filters&type=dev) |
-| pug-lexer | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-lexer)](https://david-dm.org/pugjs/pug?path=packages/pug-lexer)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-lexer)](https://david-dm.org/pugjs/pug?path=packages/pug-lexer&type=dev) |
-| pug-linker | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-linker)](https://david-dm.org/pugjs/pug?path=packages/pug-linker)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-linker)](https://david-dm.org/pugjs/pug?path=packages/pug-linker&type=dev) |
-| pug-load | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-load)](https://david-dm.org/pugjs/pug?path=packages/pug-load)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-load)](https://david-dm.org/pugjs/pug?path=packages/pug-load&type=dev) |
-| pug-parser | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-parser)](https://david-dm.org/pugjs/pug?path=packages/pug-parser)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-parser)](https://david-dm.org/pugjs/pug?path=packages/pug-parser&type=dev) |
-| pug-runtime | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-runtime)](https://david-dm.org/pugjs/pug?path=packages/pug-runtime)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-runtime)](https://david-dm.org/pugjs/pug?path=packages/pug-runtime&type=dev) |
-| pug-strip-comments | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-strip-comments)](https://david-dm.org/pugjs/pug?path=packages/pug-strip-comments)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-strip-comments)](https://david-dm.org/pugjs/pug?path=packages/pug-strip-comments&type=dev) |
-| pug-walk | [![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-walk)](https://david-dm.org/pugjs/pug?path=packages/pug-walk)      |    [![Dependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-walk)](https://david-dm.org/pugjs/pug?path=packages/pug-walk&type=dev) |
+| mono-repo top      |  [![Dependency Status](https://img.shields.io/david/aakoch/pug.svg?style=flat)](https://david-dm.org/aakoch/pug) |  [![devDependencies Status](https://img.shields.io/david/dev/aakoch/pug.svg?style=flat)](https://david-dm.org/aakoch/pug?type=dev) |
+| pug | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug)](https://david-dm.org/aakoch/pug?path=packages/pug)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug)](https://david-dm.org/aakoch/pug?path=packages/pug&type=dev) |
+| pug-attrs      | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-attrs)](https://david-dm.org/aakoch/pug?path=packages/pug-attrs)      |   [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-attrs)](https://david-dm.org/aakoch/pug?path=packages/pug-attrs&type=dev) |
+| pug-code-gen | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-code-gen)](https://david-dm.org/aakoch/pug?path=packages/pug-code-gen)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-code-gen)](https://david-dm.org/aakoch/pug?path=packages/pug-code-gen&type=dev) |
+| pug-error | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-error)](https://david-dm.org/aakoch/pug?path=packages/pug-error)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-error)](https://david-dm.org/aakoch/pug?path=packages/pug-error&type=dev) |
+| pug-filters | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-filters)](https://david-dm.org/aakoch/pug?path=packages/pug-filters)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-filters)](https://david-dm.org/aakoch/pug?path=packages/pug-filters&type=dev) |
+| pug-lexer | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-lexer)](https://david-dm.org/aakoch/pug?path=packages/pug-lexer)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-lexer)](https://david-dm.org/aakoch/pug?path=packages/pug-lexer&type=dev) |
+| pug-linker | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-linker)](https://david-dm.org/aakoch/pug?path=packages/pug-linker)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-linker)](https://david-dm.org/aakoch/pug?path=packages/pug-linker&type=dev) |
+| pug-load | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-load)](https://david-dm.org/aakoch/pug?path=packages/pug-load)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-load)](https://david-dm.org/aakoch/pug?path=packages/pug-load&type=dev) |
+| pug-parser | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-parser)](https://david-dm.org/aakoch/pug?path=packages/pug-parser)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-parser)](https://david-dm.org/aakoch/pug?path=packages/pug-parser&type=dev) |
+| pug-runtime | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-runtime)](https://david-dm.org/aakoch/pug?path=packages/pug-runtime)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-runtime)](https://david-dm.org/aakoch/pug?path=packages/pug-runtime&type=dev) |
+| pug-strip-comments | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-strip-comments)](https://david-dm.org/aakoch/pug?path=packages/pug-strip-comments)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-strip-comments)](https://david-dm.org/aakoch/pug?path=packages/pug-strip-comments&type=dev) |
+| pug-walk | [![Dependencies Status](https://david-dm.org/aakoch/pug/status.svg?path=packages/pug-walk)](https://david-dm.org/aakoch/pug?path=packages/pug-walk)      |    [![Dependencies Status](https://david-dm.org/aakoch/pug/dev-status.svg?path=packages/pug-walk)](https://david-dm.org/aakoch/pug?path=packages/pug-walk&type=dev) |
 
 ## Rename from "Jade"
 
@@ -43,7 +43,7 @@ If your package or app currently uses `jade`, don't worry: we have secured permi
 
 Before the renaming, work had already begun on “Jade 2.0.0”. Therefore, the rename to Pug coincided with the major version bump. As a result, upgrading from Jade to Pug will be the same process as upgrading any other package with a major version bump. 
 
-The syntax of Pug has several differences, deprecations, and removals compared to its predecessor. These differences are documented in [#2305](https://github.com/pugjs/pug/issues/2305).
+The syntax of Pug has several differences, deprecations, and removals compared to its predecessor. These differences are documented in [#2305](https://github.com/aakoch/pug/issues/2305).
 
 The website and documentation for Pug are still being updated. But if you are new to Pug, you should get started with the new syntax and install the Pug package from npm.
 
