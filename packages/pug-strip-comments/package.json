@@ -1,6 +1,6 @@
 {
   "name": "pug-strip-comments",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Strip comments from a Pug token stream (from the lexer)",
   "keywords": [
     "pug"
