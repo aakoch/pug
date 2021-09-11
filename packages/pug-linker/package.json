@@ -7,7 +7,7 @@
   ],
   "dependencies": {
     "pug-error": "2.0.0",
-    "pug-walk": "^1.1.8"
+    "pug-walk": "2.0.0"
   },
   "devDependencies": {
     "pug-lexer": "5.0.1",
