@@ -34,7 +34,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "lerna": "^4.0.0",
     "wsrun": "^5.2.4"
   }
 }
