@@ -6662,7 +6662,7 @@ Array [
       },
     },
     "type": "comment",
-    "val": " see https://github.com/aakoch/pug/issues/1589",
+    "val": " see https://github.com/pugjs/pug/issues/1589",
   },
   Object {
     "loc": Object {
@@ -35307,7 +35307,7 @@ Array [
       },
     },
     "type": "comment",
-    "val": " regression test for https://github.com/aakoch/pug/issues/1435",
+    "val": " regression test for https://github.com/pugjs/pug/issues/1435",
   },
   Object {
     "loc": Object {

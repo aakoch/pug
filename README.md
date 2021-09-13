@@ -5,7 +5,7 @@ Full documentation is at [pugjs.org](https://pugjs.org/)
 
 Pug is a high-performance template engine heavily influenced by [Haml](http://haml.info/)
 and implemented with JavaScript for [Node.js](http://nodejs.org) and browsers. For bug reports,
-feature requests and questions, [open an issue](https://github.com/aakoch/pug/issues/new).
+feature requests and questions, [open an issue](https://github.com/pugjs/pug/issues/new).
 For discussion join the [chat room](https://gitter.im/aakoch/pug).
 
 You can test drive Pug online [here](https://pugjs.org/).
@@ -43,7 +43,7 @@ If your package or app currently uses `jade`, don't worry: we have secured permi
 
 Before the renaming, work had already begun on “Jade 2.0.0”. Therefore, the rename to Pug coincided with the major version bump. As a result, upgrading from Jade to Pug will be the same process as upgrading any other package with a major version bump. 
 
-The syntax of Pug has several differences, deprecations, and removals compared to its predecessor. These differences are documented in [#2305](https://github.com/aakoch/pug/issues/2305).
+The syntax of Pug has several differences, deprecations, and removals compared to its predecessor. These differences are documented in [#2305](https://github.com/pugjs/pug/issues/2305).
 
 The website and documentation for Pug are still being updated. But if you are new to Pug, you should get started with the new syntax and install the Pug package from npm.
 
