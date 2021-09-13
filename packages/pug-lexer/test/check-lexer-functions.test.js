@@ -102,7 +102,7 @@ function checkMissingLexerFunction(node) {
 }
 test('lexer functions', () => {
   var str = fs.readFileSync(__dirname + '/../index.js', 'utf8');
-  var ast = acorn.parse(str, {locations: true});
+  var ast = acorn.parse(str, {locations: true, ecmaVersion: 2015});
   walk.simple(ast, {
     CallExpression: function(node) {
       checkDirectCalls(node);
