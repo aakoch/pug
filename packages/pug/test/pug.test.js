@@ -1231,7 +1231,7 @@ describe('pug', function() {
       var actual = fn({foo: 'baz'});
       expect(actual).toBe('<div class="bar">baz</div>');
     });
-    it('should support module syntax in pug.compileClient(str, options) when inlineRuntimeFunctions it true', function() {
+    it('should support module syntax in pug.compileClient(str, options) when inlineRuntimeFunctions is true', function() {
       var src = '.bar= self.foo';
       var fn = pug.compileClient(src, {
         self: true,
@@ -1246,12 +1246,11 @@ describe('pug', function() {
       var fn = require(__dirname + '/temp/input-compileModuleFileClient.js');
       expect(fn({foo: 'baz'})).toBe('<div class="bar">baz</div>');
     });
-    it('should support module syntax in pug.compileClient(str, options) when inlineRuntimeFunctions it false', function() {
+    it('should support module syntax in pug.compileClient(str, options) when inlineRuntimeFunctions is false', function() {
       var src = '.bar= self.foo';
       var fn = pug.compileClient(src, {
         self: true,
         module: true,
-        inlineRuntimeFunctions: false,
       });
       expect(fn).toMatchSnapshot();
       fs.writeFileSync(

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`pug .compileClient() should support module syntax in pug.compileClient(str, options) when inlineRuntimeFunctions it false 1`] = `
+exports[`pug .compileClient() should support module syntax in pug.compileClient(str, options) when inlineRuntimeFunctions is false 1`] = `
 "var pug = require(\\"pug-runtime\\");
 function template(locals) {
   var pug_html = \\"\\",
@@ -25,7 +25,7 @@ module.exports = template;
 "
 `;
 
-exports[`pug .compileClient() should support module syntax in pug.compileClient(str, options) when inlineRuntimeFunctions it true 1`] = `
+exports[`pug .compileClient() should support module syntax in pug.compileClient(str, options) when inlineRuntimeFunctions is true 1`] = `
 "function pug_escape(e) {
   var a = \\"\\" + e,
     t = pug_match_html.exec(a);
