@@ -77,7 +77,6 @@ function testSingle(it, suffix, test) {
         output: {beautify: true},
         mangle: false,
         compress: false,
-        fromString: true,
       }
     ).code;
     var clientCodeDebug = uglify.minify(
@@ -93,7 +92,6 @@ function testSingle(it, suffix, test) {
         output: {beautify: true},
         mangle: false,
         compress: false,
-        fromString: true,
       }
     ).code;
     writeFileSync(
@@ -111,7 +109,6 @@ function testSingle(it, suffix, test) {
           output: {beautify: true},
           mangle: false,
           compress: false,
-          fromString: true,
         }
       ).code
     );

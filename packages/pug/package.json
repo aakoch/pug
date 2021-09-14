@@ -45,7 +45,7 @@
     "jstransformer-verbatim": "^1.0.0",
     "mkdirp": "^1.0.4",
     "rimraf": "^3.0.2",
-    "uglify-js": "2"
+    "uglify-js": "^3.14.2"
   },
   "files": [
     "lib/index.js",
