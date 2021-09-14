@@ -1251,6 +1251,7 @@ describe('pug', function() {
       var fn = pug.compileClient(src, {
         self: true,
         module: true,
+        inlineRuntimeFunctions: false,
       });
       expect(fn).toMatchSnapshot();
       fs.writeFileSync(
